@@ -5,4 +5,4 @@
 * check env
 
 ## demo2.py
-# deaw y - ax+b line
+* deaw y=ax+b line
