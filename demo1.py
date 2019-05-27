@@ -12,5 +12,3 @@ if __name__ == "__main__":
     print("scipy version:{}".format(scipy.__version__))
 
 print("Bye bye")
-
-dsdasd
