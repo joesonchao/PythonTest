@@ -1,4 +1,4 @@
-# PYKT 0527
+# PYKT 0527 from
 ## last modified May-27-2019
 
 ## demo1.py
@@ -10,3 +10,9 @@
 * use git to check-in
 
 ## demo3.py
+
+
+## demo4.py
+
+
+## demo5.py
