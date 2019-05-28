@@ -1,7 +1,7 @@
 import numpy as np
 
 a = np.array([[1, 2], [3, 4]])
-print(a.shape)
+print('檢查維數:{}'.format(a.shape))
 a.shape = (4, -1)
 print(a.shape)
 print(a)

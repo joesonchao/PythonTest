@@ -30,3 +30,6 @@
 
 ### demo10.py
 * view, copy and assignment
+
+### demo11.py
+* copy & view diff
