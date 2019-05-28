@@ -27,3 +27,6 @@
 
 ### demo9.py
 * reshape to change/alter array size
+
+### demo10.py
+* view, copy and assignment
