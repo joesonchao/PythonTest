@@ -4,7 +4,6 @@ from sklearn.tree import export_graphviz
 
 X = [[0, 0], [1, 1], [0, 1], [1, 0]]
 Y = [0, 0, 1, 1]
-
 color = ['red', 'green']
 marker = ['o', 'd']
 print(X[0])
@@ -16,5 +15,10 @@ while index < len(X):
 plt.show()
 
 classifier1 = tree.DecisionTreeClassifier()
-classiffer1.fit(X, Y)
-export_graphviz(classiffer1, out_file='graph\\demo19.dot', filled=True, rounded=True, special_characters=True)
+classifier1.fit(X, Y)
+export_graphviz(classifier1, out_file='graph\\demo19.dot', filled=True, rounded=True,
+                special_characters=True)
+from subprocess import check_call
+
+#check_call(['dot', '-Tpng', '.\\graph\\demo19.dot', '-o', '.\\graph\\Output1.png'])
+check_call(['dot', '-Tsvg', '.\\graph\\demo19.dot', '-o', '.\\graph\\Output1.svg'])

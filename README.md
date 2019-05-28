@@ -54,3 +54,12 @@
 
 ### demo18.py
 * simple decision tree
+
+### demo19
+* decision tree
+
+### demo20
+* decision tree iris
+
+### demo21
+* seaborn iris
