@@ -15,3 +15,15 @@
 
 ### demo5.py
 * 2 variables regressuion and predict
+
+### demo6.py
+* make_regression
+
+### demo7.pu
+* sort by columns
+
+### demo8.py
+* diabetes regression
+
+### demo9.py
+* reshape to change/alter array size
