@@ -1,58 +1,58 @@
 # PYKT 0527
 ## last modified May-27-2019
 
-### demo1.py
+### demo1
 * check env
 
-### demo2.py
+### demo2
 * draw y=ax+b line
 
-### demo3.py
+### demo3
 * 1 variable regression
 
-### demo4.py
+### demo4
 * 2 variables regression
 
-### demo5.py
+### demo5
 * 2 variables regression and predict
 
-### demo6.py
+### demo6
 * make_regression
 
-### demo7.pu
+### demo7
 * sort by columns
 
-### demo8.py
+### demo8
 * diabetes regression
 
-### demo9.py
+### demo9
 * reshape to change/alter array size
 
-### demo10.py
+### demo10
 * view, copy and assignment
 
-### demo11.py
+### demo11
 * copy & view diff
 
-### demo12.py
+### demo12
 * draw iris
 
-## demo13.py
+## demo13
 * species V.S. petal width
 
-### demo14.py
+### demo14
 * logistic regression & cross validation
 
-### demo15.py
+### demo15
 * svc
 
-### demo16.py
+### demo16
 * svc with iris
 
-### demo17.py
+### demo17
 * svc with iris (pca)
 
-### demo18.py
+### demo18
 * simple decision tree
 
 ### demo19
@@ -63,3 +63,6 @@
 
 ### demo21
 * seaborn iris
+
+### demo22
+* kmean_sklearn
