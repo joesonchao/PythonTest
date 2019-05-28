@@ -19,8 +19,8 @@ print(datamin)
 n = 2000
 X, Y = np.meshgrid(np.linspace(datamin[0], datamax[0], n),
                    np.linspace(datamin[1], datamax[1], n))
-#kernel='linear'|rbf|poly (x)sigmoid
-#C=1 100
+# kernel='linear'|rbf|poly (x)sigmoid
+# C=1 100
 svc = svm.SVC(kernel='rbf', C=100)
 svc.fit(data, iris.target)
 Z = svc.predict(np.c_[X.ravel(), Y.ravel()])

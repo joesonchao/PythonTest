@@ -46,8 +46,11 @@
 ### demo15.py
 * svc
 
-### demo16
+### demo16.py
 * svc with iris
 
-### demo17
+### demo17.py
 * svc with iris (pca)
+
+### demo18.py
+* simple decision tree
