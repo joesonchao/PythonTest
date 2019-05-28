@@ -66,3 +66,6 @@
 
 ### demo22
 * kmean_sklearn
+
+### demo23
+* kmean manual
