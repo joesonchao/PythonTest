@@ -21,4 +21,10 @@ for i in range(0, 4):
 
         plt.clf()
         plt.scatter(xData, yData, c=species, cmap=plt.cm.Paired)
+        plt.xlabel(labels[i])
+        plt.ylabel(labels[j])
+        plt.xlim(x_min, x_max)
+        plt.ylim(y_min, y_max)
+        plt.xticks(())
+        plt.yticks(())
         plt.show()

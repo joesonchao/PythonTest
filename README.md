@@ -33,3 +33,6 @@
 
 ### demo11.py
 * copy & view diff
+
+### demo12.py
+* draw iris
