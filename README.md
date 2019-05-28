@@ -61,3 +61,5 @@
 ### demo20
 * decision tree iris
 
+### demo21
+* seaborn iris
