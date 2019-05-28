@@ -14,7 +14,7 @@
 * 2 variables regression
 
 ### demo5.py
-* 2 variables regressuion and predict
+* 2 variables regression and predict
 
 ### demo6.py
 * make_regression
@@ -40,5 +40,14 @@
 ## demo13.py
 * species V.S. petal width
 
-### demo14
+### demo14.py
 * logistic regression & cross validation
+
+### demo15.py
+* svc
+
+### demo16
+* svc with iris
+
+### demo17
+* svc with iris (pca)
