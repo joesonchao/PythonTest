@@ -39,3 +39,6 @@
 
 ## demo13.py
 * species V.S. petal width
+
+### demo14
+* logistic regression & cross validation
