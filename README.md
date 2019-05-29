@@ -90,3 +90,6 @@
 
 ### demo31
 * 2d plot for naive bayes
+
+## demo32
+* PCA
