@@ -17,4 +17,25 @@ Z = clf1.predict(np.c_[xx.ravel(), yy.ravel()])
 
 Z = Z.reshape(xx.shape)
 plt.pcolormesh(xx, yy, Z)
+# plt.show()
+
+XB = []
+YB = []
+XR = []
+YR = []
+index = 0
+for index in range(0, len(Y)):
+    if Y[index] == 1:
+        print("B equal to", X[index, :])
+        XB.append(X[index, 0])
+        YB.append(X[index, 1])
+    elif Y[index] == 2:
+        print("R equal to", X[index, :])
+        XR.append(X[index, 0])
+        YR.append(X[index, 1])
+print(X)
+print(X[:, 0])
+plt.scatter(XB, YB, color='b', label="Blue")
+plt.scatter(XR, YR, color='r', label="Red")
+plt.legend()
 plt.show()
