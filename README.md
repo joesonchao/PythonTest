@@ -81,3 +81,12 @@
 
 ### demo27
 * unsupervised nearest neighbor
+
+### demo29
+* iris with KNN
+
+### demo30
+* simple naive bayes
+
+### demo31
+* 2d plot for naive bayes
