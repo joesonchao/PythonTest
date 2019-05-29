@@ -78,3 +78,6 @@
 
 ### demo26
 * kmean(explained)
+
+### demo27
+* unsupervised nearest neighbor
