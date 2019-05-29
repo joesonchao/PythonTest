@@ -1,3 +1,4 @@
+from copy import deepcopy
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -16,3 +17,37 @@ plt.show()
 
 def dist(a, b, axis=1):
     return np.linalg.norm(a - b, axis=axis)
+
+
+C_old = np.zeros(C.shape)
+delta = dist(C, C_old, None)
+clusters = np.zeros((len(X)))
+
+
+def plot_kmean(current_cluster, delta):
+    colors = ['r', 'g', 'b', 'y', 'c', 'm']
+    fig, ax = plt.subplots()
+    for i in range(k):
+        points = np.array([X[j] for j in range(len(X)) if current_cluster[j] == i])
+        ax.scatter(points[:, 0], points[:, 1], s=7, c=colors[i])
+    plt.scatter(C[:, 0], C[:, 1], marker='*', c='#C02244')
+    plt.title('delta will be:%.4f' % delta)
+    plt.plot()
+    plt.show()
+
+
+while delta != 0:
+    print('start a new interation')
+    # calculate each point distances and assign to new cluster
+    for i in range(len(X)):
+        distances = dist(X[i], C)
+        cluster = np.argmin(distances)
+        clusters[i] = cluster
+    C_old = deepcopy(C)
+    # move kmeans center to new place
+    for i in range(k):
+        points = [X[j] for j in range(len(X)) if clusters[j] == i]
+        C[i] = np.mean(points, axis=0)
+    # calculate distance from current clusters
+    delta = dist(C, C_old, None)
+    plot_kmean(clusters, delta)
