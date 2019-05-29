@@ -99,3 +99,17 @@
 
 ### demo34
 * PCA for a matrix
+
+
+### demo36
+* hello tensor
+
+
+### demo38
+* tensor operation
+
+### demo39
+* heron using tensor-1
+
+### demo40
+* heron using tensor-2
