@@ -8,8 +8,18 @@ print(X)
 [plt.scatter(e[0], e[1], c='g', s=7) for e in X]
 # find k (kmean, center point)
 k = 3
-C_x = np.random.randint(np.min(X), np.max(X), size=k)
-C_y = np.random.randint(np.min(X), np.max(X), size=k)
+C_x = np.zeros(k)
+C_y = np.zeros(k)
+counter = 0
+for i in np.random.choice(range(0, 150), size=3):
+    C_x[counter] = X[i, 0]
+    C_y[counter] = X[i, 1]
+    counter += 1
+
+# C_x = np.random.uniform(np.min(X[:, 0]), np.max(X[:, 0]), size=k)
+# C_y = np.random.uniform(np.min(X[:, 1]), np.max(X[:, 1]), size=k)
+# C_x = np.random.randint(np.min(X), np.max(X), size=k)
+# C_y = np.random.randint(np.min(X), np.max(X), size=k)
 C = np.array(list(zip(C_x, C_y)), dtype=np.float32)
 plt.scatter(C_x, C_y, marker='*', c='#C02244')
 plt.show()

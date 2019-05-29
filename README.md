@@ -69,3 +69,12 @@
 
 ### demo23
 * kmean manual
+
+### demo24
+* list, copy & deep copy
+
+### demo25
+* kmean
+
+### demo26
+* kmean(explained)
