@@ -74,7 +74,7 @@
 * list, copy & deep copy
 
 ### demo25
-* kmean
+* kmean sklearn (from demo23)
 
 ### demo26
 * kmean(explained)
