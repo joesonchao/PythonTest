@@ -91,5 +91,11 @@
 ### demo31
 * 2d plot for naive bayes
 
-## demo32
-* PCA
+### demo32
+* 3d iris
+
+### demo33
+* 2d iris
+
+### demo34
+* PCA for a matrix
