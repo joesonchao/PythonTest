@@ -113,3 +113,12 @@
 
 ### demo40
 * heron using tensor-2
+
+###demo41
+import tensorflow as tf
+
+
+## demo43
+* https://www.kaggle.com/uciml/pima-indians-diabetes-database
+* pima indian diabetes
+copy csv to data\
