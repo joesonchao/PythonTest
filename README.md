@@ -118,7 +118,14 @@
 import tensorflow as tf
 
 
-## demo43
+### demo43
 * https://www.kaggle.com/uciml/pima-indians-diabetes-database
 * pima indian diabetes
 copy csv to data\
+
+### demo33 
+jupyter-notebook
+demo43_explained
+
+## demo45
+* manual train_test_split
