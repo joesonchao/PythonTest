@@ -144,3 +144,12 @@ demo43_explained
 
 ## demo49
 * tensorflow with iris
+
+## demo50
+* softmax
+
+## demo51
+* imdb introduction
+
+## demo52
+* imdb (explained)
