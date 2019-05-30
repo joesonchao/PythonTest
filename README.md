@@ -123,9 +123,24 @@ import tensorflow as tf
 * pima indian diabetes
 copy csv to data\
 
-### demo33 
+### demo44 
 jupyter-notebook
 demo43_explained
 
 ## demo45
 * manual train_test_split
+
+## demo46
+* 5 fold
+
+## copy demo47 to demo48
+## demo48
+* GridSearch cross validation
+
+## copy demo47 to demo48
+
+## demo48
+* GridSearch cross validation
+
+## demo49
+* tensorflow with iris
