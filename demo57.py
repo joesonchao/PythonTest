@@ -48,3 +48,19 @@ model.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['ac
 print(model.summary())
 history = model.fit(x_train, one_hot_train_labels, epochs=20, batch_size=20,
                     validation_data=(x_test, one_hot_test_labels))
+import matplotlib.pyplot as plt
+
+loss = history.history['loss']
+val_loss = history.history['val_loss']
+epochs = range(1, len(loss) + 1)
+plt.plot(epochs, loss, 'b.-', label='Training loss')
+plt.plot(epochs, val_loss, 'ro--', label='validate loss')
+plt.show()
+
+plt.clf()
+acc = history.history['acc']
+val_acc = history.history['val_acc']
+epochs = range(1, len(loss) + 1)
+plt.plot(epochs, acc, 'b.-', label='Training accuracy')
+plt.plot(epochs, val_acc, 'ro--', label='validate accuracy')
+plt.show()
