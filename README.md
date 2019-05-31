@@ -153,3 +153,14 @@ demo43_explained
 
 ## demo52
 * imdb (explained)
+
+
+## demo54 
+* mnist dataset
+
+
+## demo55
+* categorical
+
+## demo57
+* reuter
